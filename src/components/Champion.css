@@ -1,0 +1,32 @@
+body {
+    overflow-x: hidden;
+}
+
+.champion {
+    padding: 5px;
+    overflow: hidden;
+}
+
+.champion__image,
+.champion__skills {
+    width: 100%;
+    object-fit: contain;
+}
+
+.champion__skills {
+    height: 50px;
+}
+
+.champion__image {
+    height: 300px;
+}
+
+.champion__title,
+.champion__name {
+    text-align: center;
+}
+
+.champion__skill--name {
+    font-size: .9rem;
+    text-align: center;
+}
